@@ -1,0 +1,11 @@
+{
+  "login":{
+   "login header": "Register Account",
+    "get account":"Get your free Dashonic account now.",
+    "remember":"Remember me",
+    "login":"log in",
+    "forget password":"Forgot your password?",
+    "don't have account":"Don't have an account ?",
+    "signup":"Signup"
+  }
+}

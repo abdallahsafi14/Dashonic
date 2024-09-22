@@ -1,0 +1,63 @@
+.form-floatings{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid hsla(0, 1%, 56%, 0.562);
+  background-color: #f8f9fa;
+}
+.form-floatings .form-icon{
+  padding: 15px;
+}
+.form-floatings .form-control{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  width: 90%;
+  position: relative;
+  background-color: transparent;
+}
+.form-floatings .form-control:focus{
+  border-color:#038edc;
+}
+.form-floatings>label{
+  position: relative !important;
+  justify-self: flex-start;
+}
+.form-floatings i{
+  font-size: 22px;
+}
+.form-floatings::placeholder{
+  position: absolute;
+  font-size:12px;
+  transform:translateX(-20px);
+  -webkit-transform:translateX(-20px);
+  -moz-transform:translateX(-20px);
+  -ms-transform:translateX(-20px);
+  -o-transform:translateX(-20px);
+}
+.container{
+  padding: 0px 40px !important;
+}
+.rememberMe{
+  justify-content: flex-start  !important  ;
+}
+.rememberMe input{
+  background-color: transparent;
+  width: fit-content;
+}
+.fa-heart{
+  color: red;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+form{
+  padding:0  !important;
+}
